@@ -16,6 +16,8 @@ Button skiskiska;
 Button brrr;
 Button skrt;
 Button aufzumatem;
+Button sheesh;
+Button bruh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,8 @@ Button aufzumatem;
         brrr = findViewById(R.id.brrr);
         skrt = findViewById(R.id.skrt);
         aufzumatem = findViewById(R.id.aufzumatem);
+        sheesh = findViewById(R.id.sheesh);
+        bruh = findViewById(R.id.eyooo);
 
         sue.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -58,7 +62,16 @@ Button aufzumatem;
                 MediaPlayer.create(v.getContext(), R.raw.skrt).start();
             }
         });
-
+        sheesh.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                MediaPlayer.create(v.getContext(), R.raw.sheesh).start();
+            }
+        });
+        bruh.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                MediaPlayer.create(v.getContext(), R.raw.bruh).start();
+            }
+        });
 
     }
 }

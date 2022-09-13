@@ -106,6 +106,32 @@
                 android:text="@string/aufzumatem"
                 app:backgroundTint="@null"/>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sheesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00796B"
+                android:text="@string/sheesh"
+                app:backgroundTint="@null"/>
+
+            <Button
+                android:id="@+id/eyooo"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00796B"
+                android:text="@string/eyooo"
+                app:backgroundTint="@null"/>
+        </LinearLayout>
 
     </LinearLayout>
 
